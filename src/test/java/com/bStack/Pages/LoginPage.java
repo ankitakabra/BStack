@@ -23,6 +23,7 @@ public class LoginPage {
 	
 	//locators
 	
+	//Adding a comment
 	@FindBy(id = "signin")WebElement signIn;
 	@FindBy(id = "username")WebElement userName;
 	@FindBy(xpath ="//div[text()='demouser']")WebElement userValue;

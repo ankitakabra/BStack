@@ -21,7 +21,8 @@ public class LoginPageTestCase extends BaseClass {
 	  System.out.println("TestCase Passed : Logged successfully.!!");	   
   }
   
-  @Test(priority =2)
+ 
+  @Test(priority =2)            //Listing all the products
   public void getAllProductsList() {
 	  int actTotalProd = lp.getAllProducts();
 	  
@@ -29,16 +30,17 @@ public class LoginPageTestCase extends BaseClass {
 	  System.out.println("TestCase Passed: Total products are 25");
   }
   
-  @Test(priority = 3)
+  
+  @Test(priority = 3)            //Applying filters on the product to sort
   public void filters() {
 	  lp.productSorting();
 	  lp.signOut();
 
   }
   
-  //When login fields are invalid
 
-   @Test(priority = 4)
+
+   @Test(priority = 4)            //When login fields are invalid
    public void loginWithInvalidCredentials() {
 	   lp.signIn();
 	   String msg = lp.invalidLogin();
@@ -48,9 +50,9 @@ public class LoginPageTestCase extends BaseClass {
 	  
   }
    
-  //When login fields are blank
+  
    
-  @Test(priority=5)
+  @Test(priority=5)           //When login fields are blank
   public void blankLogin() {
 	  driver.navigate().refresh();
 	  String actMsg = lp.blankLogin();
