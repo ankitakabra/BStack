@@ -23,6 +23,7 @@ public class LoginPage {
 	
 	//locators
 	
+	//LoginPage
 	@FindBy(id = "signin")WebElement signIn;
 	@FindBy(id = "username")WebElement userName;
 	@FindBy(xpath ="//div[text()='demouser']")WebElement userValue;
@@ -51,10 +52,12 @@ public class LoginPage {
 	
 	//Methods
 	
+	//SignIn
 	public void signIn() {
 		signIn.click();
 	}
 	
+	//login with valid credentials
 	public String validLogin() {
 		
 		userName.click();
@@ -68,6 +71,7 @@ public class LoginPage {
 		
 	}
 	
+	//login with invalid credentials
 	public String invalidLogin() {
 		
 		inUname.sendKeys("Ankita");
@@ -80,6 +84,7 @@ public class LoginPage {
 		
 	}
 	
+	//login with blank credentials
 	public String blankLogin() {
 		
 		loginBtn.click();
@@ -87,10 +92,12 @@ public class LoginPage {
 		return msg;
 	}
 	
+	//Logout
 	public void signOut() {
 		signIn.click();
 	}
 	
+	//get list of all the products
 	public int getAllProducts() {
 		System.out.println("Total available products are: " + allProducts.size() );
 		
@@ -101,6 +108,7 @@ public class LoginPage {
 		return allProducts.size();
 	}
 	
+	//Fetching filters and sorting products 
 	public void productSorting() {
 		Select filter = new Select(sort);
 		List<WebElement> allOptions = filter.getOptions();
@@ -117,6 +125,3 @@ public class LoginPage {
 	}
 	
 }
-
-//u- (//div[contains(@id,'react-select-2-option-')])[1]
-//p - (//div[contains(@id,'react-select-3-option-')])[1]

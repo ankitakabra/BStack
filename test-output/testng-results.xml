@@ -2,68 +2,68 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-27T17:26:12 IST" name="Suite" finished-at="2025-10-27T17:26:23 IST" duration-ms="11273">
+  <suite started-at="2025-11-06T17:58:04 IST" name="Suite" finished-at="2025-11-06T17:58:27 IST" duration-ms="23599">
     <groups>
     </groups>
-    <test started-at="2025-10-27T17:26:12 IST" name="Test" finished-at="2025-10-27T17:26:23 IST" duration-ms="11273">
+    <test started-at="2025-11-06T17:58:04 IST" name="Test" finished-at="2025-11-06T17:58:27 IST" duration-ms="23599">
       <class name="com.bStack.Tests.LoginPageTestCase">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.bStack.Tests.LoginPageTestCase@c730b35]" started-at="2025-10-27T17:26:00 IST" name="launchApp" finished-at="2025-10-27T17:26:12 IST" duration-ms="11912" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.bStack.Tests.LoginPageTestCase@c730b35]" started-at="2025-11-06T17:57:26 IST" name="launchApp" finished-at="2025-11-06T17:58:04 IST" duration-ms="37595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="loginWithValidCredentials()[pri:1, instance:com.bStack.Tests.LoginPageTestCase@c730b35]" started-at="2025-10-27T17:26:12 IST" name="loginWithValidCredentials" finished-at="2025-10-27T17:26:13 IST" duration-ms="979" status="PASS">
+        <test-method signature="loginWithValidCredentials()[pri:1, instance:com.bStack.Tests.LoginPageTestCase@c730b35]" started-at="2025-11-06T17:58:04 IST" name="loginWithValidCredentials" finished-at="2025-11-06T17:58:06 IST" duration-ms="2166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCredentials -->
-        <test-method signature="getAllProductsList()[pri:2, instance:com.bStack.Tests.LoginPageTestCase@c730b35]" started-at="2025-10-27T17:26:13 IST" name="getAllProductsList" finished-at="2025-10-27T17:26:14 IST" duration-ms="806" status="PASS">
+        <test-method signature="getAllProductsList()[pri:2, instance:com.bStack.Tests.LoginPageTestCase@c730b35]" started-at="2025-11-06T17:58:06 IST" name="getAllProductsList" finished-at="2025-11-06T17:58:07 IST" duration-ms="1038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllProductsList -->
-        <test-method signature="filters()[pri:3, instance:com.bStack.Tests.LoginPageTestCase@c730b35]" started-at="2025-10-27T17:26:14 IST" name="filters" finished-at="2025-10-27T17:26:14 IST" duration-ms="454" status="PASS">
+        <test-method signature="filters()[pri:3, instance:com.bStack.Tests.LoginPageTestCase@c730b35]" started-at="2025-11-06T17:58:07 IST" name="filters" finished-at="2025-11-06T17:58:08 IST" duration-ms="439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filters -->
-        <test-method signature="loginWithInvalidCredentials()[pri:4, instance:com.bStack.Tests.LoginPageTestCase@c730b35]" started-at="2025-10-27T17:26:14 IST" name="loginWithInvalidCredentials" finished-at="2025-10-27T17:26:15 IST" duration-ms="708" status="PASS">
+        <test-method signature="loginWithInvalidCredentials()[pri:4, instance:com.bStack.Tests.LoginPageTestCase@c730b35]" started-at="2025-11-06T17:58:08 IST" name="loginWithInvalidCredentials" finished-at="2025-11-06T17:58:09 IST" duration-ms="894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInvalidCredentials -->
-        <test-method signature="blankLogin()[pri:5, instance:com.bStack.Tests.LoginPageTestCase@c730b35]" started-at="2025-10-27T17:26:15 IST" name="blankLogin" finished-at="2025-10-27T17:26:17 IST" duration-ms="1983" status="PASS">
+        <test-method signature="blankLogin()[pri:5, instance:com.bStack.Tests.LoginPageTestCase@c730b35]" started-at="2025-11-06T17:58:09 IST" name="blankLogin" finished-at="2025-11-06T17:58:17 IST" duration-ms="8575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- blankLogin -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.bStack.Tests.LoginPageTestCase@c730b35]" started-at="2025-10-27T17:26:25 IST" name="closeApp" finished-at="2025-10-27T17:26:25 IST" duration-ms="26" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.bStack.Tests.LoginPageTestCase@c730b35]" started-at="2025-11-06T17:58:29 IST" name="closeApp" finished-at="2025-11-06T17:58:29 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- com.bStack.Tests.LoginPageTestCase -->
       <class name="com.bStack.Tests.CartPageTestCase">
-        <test-method is-config="true" signature="login()[pri:0, instance:com.bStack.Tests.CartPageTestCase@34e9fd99]" started-at="2025-10-27T17:26:17 IST" name="login" finished-at="2025-10-27T17:26:17 IST" duration-ms="656" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.bStack.Tests.CartPageTestCase@34e9fd99]" started-at="2025-11-06T17:58:17 IST" name="login" finished-at="2025-11-06T17:58:18 IST" duration-ms="482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="addOneProduct()[pri:1, instance:com.bStack.Tests.CartPageTestCase@34e9fd99]" started-at="2025-10-27T17:26:17 IST" name="addOneProduct" finished-at="2025-10-27T17:26:18 IST" duration-ms="525" status="PASS">
+        <test-method signature="addOneProduct()[pri:1, instance:com.bStack.Tests.CartPageTestCase@34e9fd99]" started-at="2025-11-06T17:58:18 IST" name="addOneProduct" finished-at="2025-11-06T17:58:19 IST" duration-ms="942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addOneProduct -->
-        <test-method signature="addMultipleProducts()[pri:2, instance:com.bStack.Tests.CartPageTestCase@34e9fd99]" started-at="2025-10-27T17:26:18 IST" name="addMultipleProducts" finished-at="2025-10-27T17:26:20 IST" duration-ms="2401" status="PASS">
+        <test-method signature="addMultipleProducts()[pri:2, instance:com.bStack.Tests.CartPageTestCase@34e9fd99]" started-at="2025-11-06T17:58:19 IST" name="addMultipleProducts" finished-at="2025-11-06T17:58:21 IST" duration-ms="2457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMultipleProducts -->
-        <test-method signature="removeFromCart()[pri:3, instance:com.bStack.Tests.CartPageTestCase@34e9fd99]" started-at="2025-10-27T17:26:20 IST" name="removeFromCart" finished-at="2025-10-27T17:26:21 IST" duration-ms="186" status="PASS">
+        <test-method signature="removeFromCart()[pri:3, instance:com.bStack.Tests.CartPageTestCase@34e9fd99]" started-at="2025-11-06T17:58:21 IST" name="removeFromCart" finished-at="2025-11-06T17:58:21 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeFromCart -->
       </class> <!-- com.bStack.Tests.CartPageTestCase -->
       <class name="com.bStack.Tests.CheckoutTestCase">
-        <test-method is-config="true" signature="getWindowDetails()[pri:0, instance:com.bStack.Tests.CheckoutTestCase@3c41ed1d]" started-at="2025-10-27T17:26:21 IST" name="getWindowDetails" finished-at="2025-10-27T17:26:21 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="getWindowDetails()[pri:0, instance:com.bStack.Tests.CheckoutTestCase@3c41ed1d]" started-at="2025-11-06T17:58:21 IST" name="getWindowDetails" finished-at="2025-11-06T17:58:21 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWindowDetails -->
-        <test-method signature="placeOrder()[pri:1, instance:com.bStack.Tests.CheckoutTestCase@3c41ed1d]" started-at="2025-10-27T17:26:21 IST" name="placeOrder" finished-at="2025-10-27T17:26:22 IST" duration-ms="1834" status="PASS">
+        <test-method signature="placeOrder()[pri:1, instance:com.bStack.Tests.CheckoutTestCase@3c41ed1d]" started-at="2025-11-06T17:58:21 IST" name="placeOrder" finished-at="2025-11-06T17:58:27 IST" duration-ms="5338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placeOrder -->
-        <test-method signature="negativeCheckout()[pri:2, instance:com.bStack.Tests.CheckoutTestCase@3c41ed1d]" started-at="2025-10-27T17:26:22 IST" name="negativeCheckout" finished-at="2025-10-27T17:26:23 IST" duration-ms="559" status="PASS">
+        <test-method signature="negativeCheckout()[pri:2, instance:com.bStack.Tests.CheckoutTestCase@3c41ed1d]" started-at="2025-11-06T17:58:27 IST" name="negativeCheckout" finished-at="2025-11-06T17:58:27 IST" duration-ms="873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeCheckout -->
